@@ -1,1 +1,14 @@
+
+<div class="question">
+  <hr>
+  {{new-question saveQuestion="saveQuestion"}}
+
+  {{#each model as |question|}}
+    <div class="center">
+      <hr>
+      {{question}}
+    </div>
+  {{/each}}
+</div>
+
 {{outlet}}
