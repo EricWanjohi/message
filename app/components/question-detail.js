@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  storeQuestion: Ember.inject.service(),
+  bookmarkQuestion: Ember.inject.service(),
 
   actions: {
     delete(question) {
