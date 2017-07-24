@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('question');
   this.route('contact');
+  this.route('bookmarks');
 });
 
 export default Router;

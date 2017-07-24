@@ -1,4 +1,8 @@
-
+<div class="question">
+  {{update-question question=model update="update"}}
+  {{question-detail question=model update="update" destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
+  {{new-answer saveAnswer="saveAnswer" question=model}}
+</div>
 
 
 {{outlet}}

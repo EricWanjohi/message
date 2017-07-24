@@ -1,0 +1,16 @@
+<div class="question">
+  <hr>
+  <h3>My bookmarked questions:</h3>
+  {{noBookmark bookmarks.bookmarks}}
+  <br>
+  {{#each bookmarks.bookmarks as |bookmark|}}
+  <hr>
+  {{#link-to 'question'}}{{bookmark.question}}{{/link-to}}
+  {{/each}}
+  <hr>
+
+</div>
+
+
+
+{{yield}}
